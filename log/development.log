@@ -565,3 +565,542 @@ Completed 200 OK in 46ms (Views: 44.0ms | ActiveRecord: 0.0ms)
 Completed 200 OK in 48ms (Views: 46.4ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/home/heroes" for ::1 at 2019-05-30 16:43:06 -0400
+Started GET "/home/team" for ::1 at 2019-05-30 16:43:06 -0400
+Started GET "/home/team" for ::1 at 2019-05-30 16:43:06 -0400
+Started GET "/" for ::1 at 2019-05-30 16:43:06 -0400
+Processing by HomeController#team as HTML
+Processing by HomeController#index as HTML
+Processing by HomeController#team as HTML
+Processing by HomeController#heroes as HTML
+  Rendering home/team.html.erb within layouts/application
+  Rendered home/team.html.erb within layouts/application (1.2ms)
+  Rendering home/heroes.html.erb within layouts/application
+  Rendered home/heroes.html.erb within layouts/application (0.2ms)
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+  Rendering home/team.html.erb within layouts/application
+  Rendered home/team.html.erb within layouts/application (0.0ms)
+  Rendered home/_navbar.html.erb (0.4ms)
+Completed 200 OK in 3649ms (Views: 3641.6ms | ActiveRecord: 0.0ms)
+
+
+  Rendered home/_navbar.html.erb (0.1ms)
+Completed 200 OK in 3668ms (Views: 3659.0ms | ActiveRecord: 0.0ms)
+
+
+  Rendered home/_navbar.html.erb (0.1ms)
+Completed 200 OK in 3669ms (Views: 3652.2ms | ActiveRecord: 0.0ms)
+
+
+  Rendered home/_navbar.html.erb (0.2ms)
+Completed 200 OK in 3680ms (Views: 3659.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/team" for ::1 at 2019-05-30 16:50:05 -0400
+Processing by HomeController#team as HTML
+  Rendering home/team.html.erb within layouts/application
+  Rendered home/team.html.erb within layouts/application (0.2ms)
+  Rendered home/_navbar.html.erb (0.4ms)
+Completed 200 OK in 30ms (Views: 29.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/team" for ::1 at 2019-05-30 16:51:39 -0400
+Processing by HomeController#team as HTML
+  Rendering home/team.html.erb within layouts/application
+  Rendered home/team.html.erb within layouts/application (0.2ms)
+  Rendered home/_navbar.html.erb (0.4ms)
+Completed 200 OK in 42ms (Views: 40.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/team" for ::1 at 2019-05-30 16:55:31 -0400
+Processing by HomeController#team as HTML
+  Rendering home/team.html.erb within layouts/application
+  Rendered home/team.html.erb within layouts/application (0.2ms)
+  Rendered home/_navbar.html.erb (0.5ms)
+Completed 200 OK in 47ms (Views: 45.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/%3Ca%20href=" for ::1 at 2019-05-30 16:55:38 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/home/%3Ca%20href="):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/home/team" for ::1 at 2019-05-30 16:55:41 -0400
+Processing by HomeController#team as HTML
+  Rendering home/team.html.erb within layouts/application
+  Rendered home/team.html.erb within layouts/application (0.3ms)
+  Rendered home/_navbar.html.erb (0.4ms)
+Completed 200 OK in 47ms (Views: 45.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/%3Ca%20href=" for ::1 at 2019-05-30 16:55:43 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/home/%3Ca%20href="):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/home/team" for ::1 at 2019-05-30 16:55:45 -0400
+Processing by HomeController#team as HTML
+  Rendering home/team.html.erb within layouts/application
+  Rendered home/team.html.erb within layouts/application (0.2ms)
+  Rendered home/_navbar.html.erb (0.4ms)
+Completed 200 OK in 30ms (Views: 29.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/%3Ca%20href=" for ::1 at 2019-05-30 16:55:47 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/home/%3Ca%20href="):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/home/team" for ::1 at 2019-05-30 16:55:49 -0400
+Started GET "/home/%3Ca%20href=" for ::1 at 2019-05-30 16:55:49 -0400
+Processing by HomeController#team as HTML
+  
+ActionController::RoutingError (No route matches [GET] "/home/%3Ca%20href="):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  Rendering home/team.html.erb within layouts/application
+  Rendered home/team.html.erb within layouts/application (0.3ms)
+  Rendered home/_navbar.html.erb (0.4ms)
+Completed 200 OK in 92ms (Views: 91.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/team" for ::1 at 2019-05-30 16:55:51 -0400
+Processing by HomeController#team as HTML
+  Rendering home/team.html.erb within layouts/application
+  Rendered home/team.html.erb within layouts/application (0.4ms)
+  Rendered home/_navbar.html.erb (0.5ms)
+Completed 200 OK in 53ms (Views: 52.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/team" for ::1 at 2019-05-30 16:55:52 -0400
+Processing by HomeController#team as HTML
+  Rendering home/team.html.erb within layouts/application
+  Rendered home/team.html.erb within layouts/application (0.2ms)
+  Rendered home/_navbar.html.erb (0.4ms)
+Completed 200 OK in 30ms (Views: 29.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/team" for ::1 at 2019-05-30 16:56:36 -0400
+Processing by HomeController#team as HTML
+  Rendering home/team.html.erb within layouts/application
+  Rendered home/team.html.erb within layouts/application (0.2ms)
+  Rendered home/_navbar.html.erb (0.4ms)
+Completed 200 OK in 30ms (Views: 29.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/team" for ::1 at 2019-05-30 16:58:54 -0400
+Processing by HomeController#team as HTML
+  Rendering home/team.html.erb within layouts/application
+  Rendered home/team.html.erb within layouts/application (0.2ms)
+  Rendered home/_navbar.html.erb (0.6ms)
+Completed 200 OK in 30ms (Views: 29.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/%3Ca%20href=" for ::1 at 2019-05-30 16:58:58 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/home/%3Ca%20href="):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/home/team" for ::1 at 2019-05-30 16:59:00 -0400
+Processing by HomeController#team as HTML
+  Rendering home/team.html.erb within layouts/application
+  Rendered home/team.html.erb within layouts/application (0.2ms)
+  Rendered home/_navbar.html.erb (0.4ms)
+Completed 200 OK in 46ms (Views: 45.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/team" for ::1 at 2019-05-30 17:02:20 -0400
+Processing by HomeController#team as HTML
+  Rendering home/team.html.erb within layouts/application
+  Rendered home/team.html.erb within layouts/application (0.2ms)
+  Rendered home/_navbar.html.erb (0.4ms)
+Completed 200 OK in 29ms (Views: 28.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/team" for ::1 at 2019-05-30 17:04:06 -0400
+Processing by HomeController#team as HTML
+  Rendering home/team.html.erb within layouts/application
+  Rendered home/team.html.erb within layouts/application (0.2ms)
+  Rendered home/_navbar.html.erb (0.3ms)
+Completed 200 OK in 23ms (Views: 22.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/team" for ::1 at 2019-05-30 17:05:47 -0400
+Processing by HomeController#team as HTML
+  Rendering home/team.html.erb within layouts/application
+  Rendered home/team.html.erb within layouts/application (0.2ms)
+  Rendered home/_navbar.html.erb (0.4ms)
+Completed 200 OK in 29ms (Views: 28.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/team" for ::1 at 2019-05-30 17:06:22 -0400
+Processing by HomeController#team as HTML
+  Rendering home/team.html.erb within layouts/application
+  Rendered home/team.html.erb within layouts/application (0.2ms)
+  Rendered home/_navbar.html.erb (0.4ms)
+Completed 200 OK in 32ms (Views: 31.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/team" for ::1 at 2019-05-30 17:06:57 -0400
+Processing by HomeController#team as HTML
+  Rendering home/team.html.erb within layouts/application
+  Rendered home/team.html.erb within layouts/application (0.3ms)
+  Rendered home/_navbar.html.erb (0.4ms)
+Completed 200 OK in 30ms (Views: 29.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/team" for ::1 at 2019-05-30 17:10:23 -0400
+Processing by HomeController#team as HTML
+  Rendering home/team.html.erb within layouts/application
+  Rendered home/team.html.erb within layouts/application (0.2ms)
+  Rendered home/_navbar.html.erb (0.5ms)
+Completed 200 OK in 29ms (Views: 28.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/team" for ::1 at 2019-05-30 17:10:44 -0400
+Processing by HomeController#team as HTML
+  Rendering home/team.html.erb within layouts/application
+  Rendered home/team.html.erb within layouts/application (0.2ms)
+  Rendered home/_navbar.html.erb (0.5ms)
+Completed 200 OK in 30ms (Views: 29.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-05-30 17:11:15 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+  Rendered home/_navbar.html.erb (0.5ms)
+Completed 200 OK in 51ms (Views: 49.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/heroes" for ::1 at 2019-05-30 17:11:17 -0400
+Processing by HomeController#heroes as HTML
+  Rendering home/heroes.html.erb within layouts/application
+  Rendered home/heroes.html.erb within layouts/application (0.4ms)
+  Rendered home/_navbar.html.erb (0.5ms)
+Completed 200 OK in 38ms (Views: 36.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/team" for ::1 at 2019-05-30 17:11:18 -0400
+Processing by HomeController#team as HTML
+  Rendering home/team.html.erb within layouts/application
+  Rendered home/team.html.erb within layouts/application (0.3ms)
+  Rendered home/_navbar.html.erb (0.4ms)
+Completed 200 OK in 36ms (Views: 35.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/heroes" for ::1 at 2019-05-30 17:11:19 -0400
+Processing by HomeController#heroes as HTML
+  Rendering home/heroes.html.erb within layouts/application
+  Rendered home/heroes.html.erb within layouts/application (0.2ms)
+  Rendered home/_navbar.html.erb (0.4ms)
+Completed 200 OK in 37ms (Views: 36.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-05-30 17:11:21 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+  Rendered home/_navbar.html.erb (0.4ms)
+Completed 200 OK in 53ms (Views: 52.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/heroes" for ::1 at 2019-05-30 17:11:22 -0400
+Processing by HomeController#heroes as HTML
+  Rendering home/heroes.html.erb within layouts/application
+  Rendered home/heroes.html.erb within layouts/application (0.4ms)
+  Rendered home/_navbar.html.erb (0.4ms)
+Completed 200 OK in 36ms (Views: 35.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/team" for ::1 at 2019-05-30 17:11:24 -0400
+Processing by HomeController#team as HTML
+  Rendering home/team.html.erb within layouts/application
+  Rendered home/team.html.erb within layouts/application (0.2ms)
+  Rendered home/_navbar.html.erb (0.5ms)
+Completed 200 OK in 37ms (Views: 36.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-05-30 17:11:26 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+  Rendered home/_navbar.html.erb (0.4ms)
+Completed 200 OK in 37ms (Views: 36.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-05-30 17:15:56 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+  Rendered home/_navbar.html.erb (0.4ms)
+Completed 200 OK in 44ms (Views: 43.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/heroes" for ::1 at 2019-05-30 17:15:58 -0400
+Processing by HomeController#heroes as HTML
+  Rendering home/heroes.html.erb within layouts/application
+  Rendered home/heroes.html.erb within layouts/application (0.3ms)
+  Rendered home/_navbar.html.erb (0.4ms)
+Completed 200 OK in 34ms (Views: 33.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/heroes" for ::1 at 2019-05-30 17:16:00 -0400
+Processing by HomeController#heroes as HTML
+  Rendering home/heroes.html.erb within layouts/application
+  Rendered home/heroes.html.erb within layouts/application (0.2ms)
+  Rendered home/_navbar.html.erb (0.4ms)
+Completed 200 OK in 31ms (Views: 30.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/heroes" for ::1 at 2019-05-30 17:16:04 -0400
+Processing by HomeController#heroes as HTML
+  Rendering home/heroes.html.erb within layouts/application
+  Rendered home/heroes.html.erb within layouts/application (0.3ms)
+  Rendered home/_navbar.html.erb (0.4ms)
+Completed 200 OK in 32ms (Views: 30.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/heroes" for ::1 at 2019-05-30 17:16:07 -0400
+Processing by HomeController#heroes as HTML
+  Rendering home/heroes.html.erb within layouts/application
+  Rendered home/heroes.html.erb within layouts/application (0.2ms)
+  Rendered home/_navbar.html.erb (0.4ms)
+Completed 200 OK in 31ms (Views: 29.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/heroes" for ::1 at 2019-05-30 17:16:19 -0400
+Processing by HomeController#heroes as HTML
+  Rendering home/heroes.html.erb within layouts/application
+  Rendered home/heroes.html.erb within layouts/application (0.2ms)
+Started GET "/home/heroes" for ::1 at 2019-05-30 17:16:19 -0400
+Processing by HomeController#heroes as HTML
+Started GET "/" for ::1 at 2019-05-30 17:16:19 -0400
+Processing by HomeController#index as HTML
+  Rendering home/heroes.html.erb within layouts/application
+  Rendered home/heroes.html.erb within layouts/application (0.2ms)
+Started GET "/home/team" for ::1 at 2019-05-30 17:16:19 -0400
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Processing by HomeController#team as HTML
+  Rendering home/team.html.erb within layouts/application
+  Rendered home/team.html.erb within layouts/application (0.2ms)
+  Rendered home/_navbar.html.erb (0.4ms)
+Completed 200 OK in 125ms (Views: 124.0ms | ActiveRecord: 0.0ms)
+
+
+  Rendered home/_navbar.html.erb (0.4ms)
+  Rendered home/_navbar.html.erb (0.3ms)
+Completed 200 OK in 125ms (Views: 124.6ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 122ms (Views: 120.6ms | ActiveRecord: 0.0ms)
+
+
+  Rendered home/_navbar.html.erb (0.1ms)
+Completed 200 OK in 120ms (Views: 118.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/heroes" for ::1 at 2019-05-30 17:16:37 -0400
+Processing by HomeController#heroes as HTML
+Started GET "/home/team" for ::1 at 2019-05-30 17:16:37 -0400
+Started GET "/home/heroes" for ::1 at 2019-05-30 17:16:37 -0400
+Processing by HomeController#team as HTML
+Processing by HomeController#heroes as HTML
+Started GET "/" for ::1 at 2019-05-30 17:16:37 -0400
+  Rendering home/team.html.erb within layouts/application
+  Rendered home/team.html.erb within layouts/application (0.2ms)
+Processing by HomeController#index as HTML
+  Rendering home/heroes.html.erb within layouts/application
+  Rendered home/heroes.html.erb within layouts/application (0.2ms)
+  Rendering home/heroes.html.erb within layouts/application
+  Rendered home/heroes.html.erb within layouts/application (0.2ms)
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+  Rendered home/_navbar.html.erb (0.4ms)
+Completed 200 OK in 118ms (Views: 117.2ms | ActiveRecord: 0.0ms)
+
+
+  Rendered home/_navbar.html.erb (0.4ms)
+Completed 200 OK in 128ms (Views: 125.9ms | ActiveRecord: 0.0ms)
+
+
+  Rendered home/_navbar.html.erb (0.1ms)
+Completed 200 OK in 127ms (Views: 126.1ms | ActiveRecord: 0.0ms)
+
+
+  Rendered home/_navbar.html.erb (0.1ms)
+Completed 200 OK in 125ms (Views: 122.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/heroes" for ::1 at 2019-05-30 17:16:41 -0400
+Processing by HomeController#heroes as HTML
+  Rendering home/heroes.html.erb within layouts/application
+  Rendered home/heroes.html.erb within layouts/application (0.5ms)
+  Rendered home/_navbar.html.erb (0.5ms)
+Completed 200 OK in 52ms (Views: 50.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-05-30 17:16:42 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+  Rendered home/_navbar.html.erb (0.5ms)
+Completed 200 OK in 37ms (Views: 36.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/team" for ::1 at 2019-05-30 17:16:59 -0400
+Processing by HomeController#team as HTML
+  Rendering home/team.html.erb within layouts/application
+  Rendered home/team.html.erb within layouts/application (0.4ms)
+  Rendered home/_navbar.html.erb (0.4ms)
+Completed 200 OK in 27ms (Views: 26.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/heroes" for ::1 at 2019-05-30 17:17:15 -0400
+Processing by HomeController#heroes as HTML
+  Rendering home/heroes.html.erb within layouts/application
+  Rendered home/heroes.html.erb within layouts/application (0.4ms)
+  Rendered home/_navbar.html.erb (0.5ms)
+Completed 200 OK in 36ms (Views: 35.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-05-30 17:17:17 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+  Rendered home/_navbar.html.erb (0.5ms)
+Completed 200 OK in 50ms (Views: 49.7ms | ActiveRecord: 0.0ms)
+
+
