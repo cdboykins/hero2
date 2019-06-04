@@ -4401,3 +4401,516 @@ Processing by HomeController#index as HTML
 Completed 200 OK in 51ms (Views: 49.6ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for ::1 at 2019-06-04 15:46:14 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.3ms)
+  Rendered home/_navbar.html.erb (0.5ms)
+Completed 200 OK in 465ms (Views: 314.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-06-04 15:47:20 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+  Rendered home/_navbar.html.erb (0.8ms)
+Completed 200 OK in 950ms (Views: 949.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-06-04 15:47:21 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.8ms)
+  Rendered home/_navbar.html.erb (0.7ms)
+Completed 200 OK in 65ms (Views: 63.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-06-04 18:45:47 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+  Rendered home/_navbar.html.erb (0.9ms)
+Completed 200 OK in 57ms (Views: 55.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/heroes" for ::1 at 2019-06-04 18:45:49 -0400
+Processing by HomeController#heroes as HTML
+  Rendering home/heroes.html.erb within layouts/application
+  Rendered home/heroes.html.erb within layouts/application (1.0ms)
+  Rendered home/_navbar.html.erb (0.5ms)
+Completed 200 OK in 64ms (Views: 62.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/team" for ::1 at 2019-06-04 18:45:51 -0400
+Processing by HomeController#team as HTML
+  Rendering home/team.html.erb within layouts/application
+  Rendered home/team.html.erb within layouts/application (0.9ms)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/carlosboykins/Desktop/ruby/hero2/app/views/home/team.html.erb:11: syntax error, unexpected '='
+..._tag 'Build Your Team', class = "btn btn-primary");@output_b...
+...                              ^):
+  
+app/views/home/team.html.erb:11: syntax error, unexpected '='
+Started GET "/home/team" for ::1 at 2019-06-04 18:46:32 -0400
+Processing by HomeController#team as HTML
+Started GET "/home/team" for ::1 at 2019-06-04 18:46:32 -0400
+Started GET "/" for ::1 at 2019-06-04 18:46:32 -0400
+Processing by HomeController#team as HTML
+  Rendering home/team.html.erb within layouts/application
+  Rendered home/team.html.erb within layouts/application (2.1ms)
+Processing by HomeController#index as HTML
+Started GET "/home/heroes" for ::1 at 2019-06-04 18:46:32 -0400
+Processing by HomeController#heroes as HTML
+  Rendering home/heroes.html.erb within layouts/application
+  Rendered home/heroes.html.erb within layouts/application (0.3ms)
+  Rendering home/team.html.erb within layouts/application
+  Rendered home/team.html.erb within layouts/application (0.6ms)
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+  Rendered home/_navbar.html.erb (0.4ms)
+Completed 200 OK in 117ms (Views: 116.2ms | ActiveRecord: 0.0ms)
+
+
+  Rendered home/_navbar.html.erb (0.4ms)
+Completed 200 OK in 137ms (Views: 135.1ms | ActiveRecord: 0.0ms)
+
+
+  Rendered home/_navbar.html.erb (0.1ms)
+Completed 200 OK in 136ms (Views: 130.7ms | ActiveRecord: 0.0ms)
+
+
+  Rendered home/_navbar.html.erb (0.1ms)
+Completed 200 OK in 132ms (Views: 126.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/team" for ::1 at 2019-06-04 19:00:00 -0400
+Processing by HomeController#team as HTML
+Started GET "/home/team" for ::1 at 2019-06-04 19:00:00 -0400
+Processing by HomeController#team as HTML
+Started GET "/home/heroes" for ::1 at 2019-06-04 19:00:00 -0400
+  Rendering home/team.html.erb within layouts/application
+Processing by HomeController#heroes as HTML
+Started GET "/" for ::1 at 2019-06-04 19:00:00 -0400
+  Rendering home/team.html.erb within layouts/application
+  Rendered home/team.html.erb within layouts/application (0.4ms)
+Processing by HomeController#index as HTML
+  Rendering home/heroes.html.erb within layouts/application
+  Rendered home/heroes.html.erb within layouts/application (0.4ms)
+  Rendered home/team.html.erb within layouts/application (2.1ms)
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/carlosboykins/Desktop/ruby/hero2/app/views/home/team.html.erb:11: syntax error, unexpected for, expecting do or '{' or '('
+...ct_tag(:team_member,options for select([
+...                            ^~~
+/Users/carlosboykins/Desktop/ruby/hero2/app/views/home/team.html.erb:22: syntax error, unexpected ',', expecting '.' or &. or :: or '['
+            ]), class: 'Form Control') );@ou...
+              ^
+/Users/carlosboykins/Desktop/ruby/hero2/app/views/home/team.html.erb:22: syntax error, unexpected ')', expecting end
+...   ]), class: 'Form Control') );@output_buffer.safe_append='
+...                              ^
+/Users/carlosboykins/Desktop/ruby/hero2/app/views/home/team.html.erb:39: syntax error, unexpected ensure, expecting end-of-input
+          ensure
+          ^~~~~~):
+  
+app/views/home/team.html.erb:11: syntax error, unexpected for, expecting do or '{' or '('
+app/views/home/team.html.erb:22: syntax error, unexpected ',', expecting '.' or &. or :: or '['
+app/views/home/team.html.erb:22: syntax error, unexpected ')', expecting end
+app/views/home/team.html.erb:39: syntax error, unexpected ensure, expecting end-of-input
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms)
+
+
+  
+  Rendering home/index.html.erb within layouts/application
+SyntaxError (/Users/carlosboykins/Desktop/ruby/hero2/app/views/home/team.html.erb:11: syntax error, unexpected for, expecting do or '{' or '('
+...ct_tag(:team_member,options for select([
+...                            ^~~
+/Users/carlosboykins/Desktop/ruby/hero2/app/views/home/team.html.erb:22: syntax error, unexpected ',', expecting '.' or &. or :: or '['
+            ]), class: 'Form Control') );@ou...
+              ^
+/Users/carlosboykins/Desktop/ruby/hero2/app/views/home/team.html.erb:22: syntax error, unexpected ')', expecting end
+...   ]), class: 'Form Control') );@output_buffer.safe_append='
+...                              ^
+/Users/carlosboykins/Desktop/ruby/hero2/app/views/home/team.html.erb:39: syntax error, unexpected ensure, expecting end-of-input
+          ensure
+          ^~~~~~):
+  
+app/views/home/team.html.erb:11: syntax error, unexpected for, expecting do or '{' or '('
+app/views/home/team.html.erb:22: syntax error, unexpected ',', expecting '.' or &. or :: or '['
+app/views/home/team.html.erb:22: syntax error, unexpected ')', expecting end
+app/views/home/team.html.erb:39: syntax error, unexpected ensure, expecting end-of-input
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+  Rendered home/_navbar.html.erb (0.4ms)
+Completed 200 OK in 261ms (Views: 258.4ms | ActiveRecord: 0.0ms)
+
+
+  Rendered home/_navbar.html.erb (0.1ms)
+Completed 200 OK in 270ms (Views: 268.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/team" for ::1 at 2019-06-04 19:01:20 -0400
+Started GET "/home/team" for ::1 at 2019-06-04 19:01:20 -0400
+Processing by HomeController#team as HTML
+Processing by HomeController#team as HTML
+Started GET "/home/heroes" for ::1 at 2019-06-04 19:01:20 -0400
+Started GET "/" for ::1 at 2019-06-04 19:01:20 -0400
+Processing by HomeController#heroes as HTML
+Processing by HomeController#index as HTML
+  Rendering home/team.html.erb within layouts/application
+  Rendered home/team.html.erb within layouts/application (0.8ms)
+  Rendering home/team.html.erb within layouts/application
+  Rendered home/team.html.erb within layouts/application (0.7ms)
+  Rendering home/heroes.html.erb within layouts/application
+  Rendered home/heroes.html.erb within layouts/application (0.3ms)
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+  Rendered home/_navbar.html.erb (0.4ms)
+Completed 200 OK in 126ms (Views: 123.6ms | ActiveRecord: 0.0ms)
+
+
+  Rendered home/_navbar.html.erb (0.4ms)
+Completed 200 OK in 127ms (Views: 124.5ms | ActiveRecord: 0.0ms)
+
+
+  Rendered home/_navbar.html.erb (0.1ms)
+Completed 200 OK in 126ms (Views: 124.3ms | ActiveRecord: 0.0ms)
+
+
+  Rendered home/_navbar.html.erb (0.1ms)
+Completed 200 OK in 130ms (Views: 127.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/team" for ::1 at 2019-06-04 19:01:45 -0400
+Processing by HomeController#team as HTML
+Started GET "/" for ::1 at 2019-06-04 19:01:45 -0400
+Processing by HomeController#index as HTML
+Started GET "/home/heroes" for ::1 at 2019-06-04 19:01:45 -0400
+Started GET "/home/team" for ::1 at 2019-06-04 19:01:45 -0400
+  Rendering home/team.html.erb within layouts/application
+  Rendered home/team.html.erb within layouts/application (0.8ms)
+Processing by HomeController#heroes as HTML
+  Rendering home/index.html.erb within layouts/application
+Processing by HomeController#team as HTML
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+  Rendering home/heroes.html.erb within layouts/application
+  Rendered home/heroes.html.erb within layouts/application (0.3ms)
+  Rendering home/team.html.erb within layouts/application
+  Rendered home/team.html.erb within layouts/application (0.7ms)
+  Rendered home/_navbar.html.erb (0.5ms)
+Completed 200 OK in 125ms (Views: 124.0ms | ActiveRecord: 0.0ms)
+
+
+  Rendered home/_navbar.html.erb (0.4ms)
+Completed 200 OK in 120ms (Views: 118.8ms | ActiveRecord: 0.0ms)
+
+
+  Rendered home/_navbar.html.erb (0.1ms)
+Completed 200 OK in 131ms (Views: 128.4ms | ActiveRecord: 0.0ms)
+
+
+  Rendered home/_navbar.html.erb (0.1ms)
+Completed 200 OK in 131ms (Views: 129.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/team" for ::1 at 2019-06-04 19:02:04 -0400
+Processing by HomeController#team as HTML
+Started GET "/home/team" for ::1 at 2019-06-04 19:02:04 -0400
+Started GET "/" for ::1 at 2019-06-04 19:02:04 -0400
+Started GET "/home/heroes" for ::1 at 2019-06-04 19:02:04 -0400
+  Rendering home/team.html.erb within layouts/application
+  Rendered home/team.html.erb within layouts/application (0.8ms)
+Processing by HomeController#team as HTML
+Processing by HomeController#heroes as HTML
+Processing by HomeController#index as HTML
+  Rendering home/heroes.html.erb within layouts/application
+  Rendered home/heroes.html.erb within layouts/application (0.4ms)
+  Rendering home/team.html.erb within layouts/application
+  Rendered home/team.html.erb within layouts/application (0.7ms)
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+  Rendered home/_navbar.html.erb (0.5ms)
+Completed 200 OK in 122ms (Views: 120.7ms | ActiveRecord: 0.0ms)
+
+
+  Rendered home/_navbar.html.erb (0.4ms)
+Completed 200 OK in 128ms (Views: 126.6ms | ActiveRecord: 0.0ms)
+
+
+  Rendered home/_navbar.html.erb (0.1ms)
+Completed 200 OK in 129ms (Views: 128.3ms | ActiveRecord: 0.0ms)
+
+
+  Rendered home/_navbar.html.erb (0.1ms)
+Completed 200 OK in 134ms (Views: 129.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/team" for ::1 at 2019-06-04 19:03:51 -0400
+Processing by HomeController#team as HTML
+  Rendering home/team.html.erb within layouts/application
+  Rendered home/team.html.erb within layouts/application (0.8ms)
+Started GET "/" for ::1 at 2019-06-04 19:03:51 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+Started GET "/home/team" for ::1 at 2019-06-04 19:03:51 -0400
+Started GET "/home/heroes" for ::1 at 2019-06-04 19:03:51 -0400
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Processing by HomeController#heroes as HTML
+Processing by HomeController#team as HTML
+  Rendering home/team.html.erb within layouts/application
+  Rendered home/team.html.erb within layouts/application (0.8ms)
+  Rendering home/heroes.html.erb within layouts/application
+  Rendered home/heroes.html.erb within layouts/application (0.3ms)
+  Rendered home/_navbar.html.erb (0.4ms)
+Completed 200 OK in 126ms (Views: 125.3ms | ActiveRecord: 0.0ms)
+
+
+  Rendered home/_navbar.html.erb (0.4ms)
+Completed 200 OK in 124ms (Views: 122.4ms | ActiveRecord: 0.0ms)
+
+
+  Rendered home/_navbar.html.erb (0.1ms)
+Completed 200 OK in 130ms (Views: 129.3ms | ActiveRecord: 0.0ms)
+
+
+  Rendered home/_navbar.html.erb (0.1ms)
+Completed 200 OK in 129ms (Views: 127.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/team" for ::1 at 2019-06-04 19:06:02 -0400
+Started GET "/" for ::1 at 2019-06-04 19:06:02 -0400
+Started GET "/home/heroes" for ::1 at 2019-06-04 19:06:02 -0400
+Processing by HomeController#team as HTML
+Processing by HomeController#index as HTML
+Processing by HomeController#heroes as HTML
+Started GET "/home/team" for ::1 at 2019-06-04 19:06:02 -0400
+  Rendering home/team.html.erb within layouts/application
+  Rendered home/team.html.erb within layouts/application (0.8ms)
+  Rendering home/heroes.html.erb within layouts/application
+  Rendered home/heroes.html.erb within layouts/application (0.3ms)
+  Rendering home/index.html.erb within layouts/application
+Processing by HomeController#team as HTML
+  Rendering home/team.html.erb within layouts/application
+  Rendered home/team.html.erb within layouts/application (0.4ms)
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+  Rendered home/_navbar.html.erb (0.4ms)
+Completed 200 OK in 132ms (Views: 130.7ms | ActiveRecord: 0.0ms)
+
+
+  Rendered home/_navbar.html.erb (0.1ms)
+  Rendered home/_navbar.html.erb (0.1ms)
+Completed 200 OK in 125ms (Views: 124.0ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 133ms (Views: 130.7ms | ActiveRecord: 0.0ms)
+
+
+  Rendered home/_navbar.html.erb (0.1ms)
+Completed 200 OK in 135ms (Views: 134.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/team" for ::1 at 2019-06-04 19:08:26 -0400
+Processing by HomeController#team as HTML
+Started GET "/home/team" for ::1 at 2019-06-04 19:08:26 -0400
+Processing by HomeController#team as HTML
+Started GET "/home/heroes" for ::1 at 2019-06-04 19:08:26 -0400
+  Rendering home/team.html.erb within layouts/application
+Started GET "/" for ::1 at 2019-06-04 19:08:26 -0400
+Processing by HomeController#index as HTML
+  Rendered home/team.html.erb within layouts/application (0.8ms)
+Processing by HomeController#heroes as HTML
+  Rendering home/team.html.erb within layouts/application
+  Rendered home/team.html.erb within layouts/application (0.7ms)
+  Rendering home/heroes.html.erb within layouts/application
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+  Rendered home/heroes.html.erb within layouts/application (1.5ms)
+  Rendered home/_navbar.html.erb (0.4ms)
+Completed 200 OK in 123ms (Views: 120.5ms | ActiveRecord: 0.0ms)
+
+
+  Rendered home/_navbar.html.erb (0.4ms)
+Completed 200 OK in 136ms (Views: 133.9ms | ActiveRecord: 0.0ms)
+
+
+  Rendered home/_navbar.html.erb (0.1ms)
+Completed 200 OK in 134ms (Views: 130.5ms | ActiveRecord: 0.0ms)
+
+
+  Rendered home/_navbar.html.erb (0.1ms)
+Completed 200 OK in 132ms (Views: 131.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/team" for ::1 at 2019-06-04 19:22:12 -0400
+Started GET "/home/team" for ::1 at 2019-06-04 19:22:12 -0400
+Started GET "/" for ::1 at 2019-06-04 19:22:12 -0400
+Started GET "/home/heroes" for ::1 at 2019-06-04 19:22:12 -0400
+Processing by HomeController#team as HTML
+  Rendering home/team.html.erb within layouts/application
+  Rendered home/team.html.erb within layouts/application (0.7ms)
+  Rendered home/_navbar.html.erb (0.4ms)
+Completed 200 OK in 35ms (Views: 34.5ms | ActiveRecord: 0.0ms)
+
+
+Processing by HomeController#index as HTML
+Processing by HomeController#team as HTML
+Processing by HomeController#heroes as HTML
+  Rendering home/team.html.erb within layouts/application
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/team.html.erb within layouts/application (0.6ms)
+  Rendering home/heroes.html.erb within layouts/application
+  Rendered home/heroes.html.erb within layouts/application (0.4ms)
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+  Rendered home/_navbar.html.erb (0.1ms)
+Completed 200 OK in 101ms (Views: 98.9ms | ActiveRecord: 0.0ms)
+
+
+  Rendered home/_navbar.html.erb (0.1ms)
+Completed 200 OK in 104ms (Views: 102.9ms | ActiveRecord: 0.0ms)
+
+
+  Rendered home/_navbar.html.erb (0.1ms)
+Completed 200 OK in 109ms (Views: 104.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/home/team" for ::1 at 2019-06-04 19:22:15 -0400
+Processing by HomeController#team as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"6axWQo28BE22EGFwYo9PaIQzW0OWhjS4U7JDdVaJSwJrx6C+s4U9jkjpB5BcQpXOPVr3qPhkmCiF0Jw94HhFRA==", "team_number"=>"1", "commit"=>"Build Your Team"}
+  Rendering home/team.html.erb within layouts/application
+  Rendered home/team.html.erb within layouts/application (0.9ms)
+  Rendered home/_navbar.html.erb (0.5ms)
+Completed 200 OK in 44ms (Views: 43.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/home/team" for ::1 at 2019-06-04 19:22:20 -0400
+Processing by HomeController#team as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3zeM0M8hl0zwcUTY4roBSDPPVSQRkeV8yFJg1cUE7sldXHos8Riujw6IIjjcd9vuiqb5z39zSeweML+dc/Xgjw==", "team_number"=>"1", "commit"=>"Build Your Team"}
+  Rendering home/team.html.erb within layouts/application
+  Rendered home/team.html.erb within layouts/application (0.8ms)
+  Rendered home/_navbar.html.erb (0.6ms)
+Completed 200 OK in 32ms (Views: 30.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/home/team" for ::1 at 2019-06-04 19:22:23 -0400
+Processing by HomeController#team as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ah3VdhKdjZYBJhbKH8MkHQGDlFDDVGVtVpbTX3CykmGAdiOKLKS0Vf/fcCohDv67uOo4u622yf2A9AwXxkOcJw==", "team_number"=>"2", "commit"=>"Build Your Team"}
+  Rendering home/team.html.erb within layouts/application
+  Rendered home/team.html.erb within layouts/application (0.8ms)
+  Rendered home/_navbar.html.erb (0.5ms)
+Completed 200 OK in 30ms (Views: 29.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/home/team" for ::1 at 2019-06-04 19:25:58 -0400
+Processing by HomeController#team as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ah3VdhKdjZYBJhbKH8MkHQGDlFDDVGVtVpbTX3CykmGAdiOKLKS0Vf/fcCohDv67uOo4u622yf2A9AwXxkOcJw==", "team_number"=>"2", "commit"=>"Build Your Team"}
+  Rendering home/team.html.erb within layouts/application
+  Rendered home/team.html.erb within layouts/application (0.8ms)
+  Rendered home/_navbar.html.erb (0.4ms)
+Completed 200 OK in 29ms (Views: 28.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/team" for ::1 at 2019-06-04 19:28:17 -0400
+Processing by HomeController#team as HTML
+  Rendering home/team.html.erb within layouts/application
+  Rendered home/team.html.erb within layouts/application (0.8ms)
+  Rendered home/_navbar.html.erb (0.4ms)
+Completed 200 OK in 43ms (Views: 41.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-06-04 19:28:21 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+  Rendered home/_navbar.html.erb (0.5ms)
+Completed 200 OK in 33ms (Views: 31.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/team" for ::1 at 2019-06-04 19:28:24 -0400
+Processing by HomeController#team as HTML
+  Rendering home/team.html.erb within layouts/application
+  Rendered home/team.html.erb within layouts/application (1.2ms)
+  Rendered home/_navbar.html.erb (0.5ms)
+Completed 200 OK in 34ms (Views: 33.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/home/team" for ::1 at 2019-06-04 19:28:29 -0400
+Processing by HomeController#team as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"b9+4/uvdlQwLFPXO4jjGBzWkQDuqTREhvgVkZpszQ2PJFRxNMZyBIWg4F0gWWUunnL8QDKNONDYxOVegc3vPTA==", "team_number"=>"7", "commit"=>"Build Your Team"}
+  Rendering home/team.html.erb within layouts/application
+  Rendered home/team.html.erb within layouts/application (0.8ms)
+  Rendered home/_navbar.html.erb (0.4ms)
+Completed 200 OK in 30ms (Views: 29.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/home/team" for ::1 at 2019-06-04 19:30:39 -0400
+Processing by HomeController#team as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"b9+4/uvdlQwLFPXO4jjGBzWkQDuqTREhvgVkZpszQ2PJFRxNMZyBIWg4F0gWWUunnL8QDKNONDYxOVegc3vPTA==", "team_number"=>"7", "commit"=>"Build Your Team"}
+  Rendering home/team.html.erb within layouts/application
+  Rendered home/team.html.erb within layouts/application (0.8ms)
+  Rendered home/_navbar.html.erb (0.5ms)
+Completed 200 OK in 31ms (Views: 30.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/team" for ::1 at 2019-06-04 19:30:43 -0400
+Processing by HomeController#team as HTML
+  Rendering home/team.html.erb within layouts/application
+  Rendered home/team.html.erb within layouts/application (0.7ms)
+  Rendered home/_navbar.html.erb (0.4ms)
+Completed 200 OK in 22ms (Views: 21.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-06-04 19:30:45 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.8ms)
+  Rendered home/_navbar.html.erb (0.6ms)
+Completed 200 OK in 34ms (Views: 32.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/team" for ::1 at 2019-06-04 19:30:46 -0400
+Processing by HomeController#team as HTML
+  Rendering home/team.html.erb within layouts/application
+  Rendered home/team.html.erb within layouts/application (1.1ms)
+  Rendered home/_navbar.html.erb (0.6ms)
+Completed 200 OK in 50ms (Views: 49.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/home/team" for ::1 at 2019-06-04 19:30:52 -0400
+Processing by HomeController#team as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"g8KIMaZtmfoRclh52qKP5rmjmeYVGzaO9cNr062PyMUlCCyCfCyN13Jeuv8uwwJGELjJ0RwYE5l6/1gVRcdE6g==", "team_number"=>"3", "commit"=>"Build Your Team"}
+  Rendering home/team.html.erb within layouts/application
+  Rendered home/team.html.erb within layouts/application (0.7ms)
+  Rendered home/_navbar.html.erb (0.4ms)
+Completed 200 OK in 27ms (Views: 26.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/home/team" for ::1 at 2019-06-04 19:33:18 -0400
+Processing by HomeController#team as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"g8KIMaZtmfoRclh52qKP5rmjmeYVGzaO9cNr062PyMUlCCyCfCyN13Jeuv8uwwJGELjJ0RwYE5l6/1gVRcdE6g==", "team_number"=>"3", "commit"=>"Build Your Team"}
+  Rendering home/team.html.erb within layouts/application
+  Rendered home/team.html.erb within layouts/application (0.7ms)
+  Rendered home/_navbar.html.erb (0.5ms)
+Completed 200 OK in 23ms (Views: 22.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/home/team" for ::1 at 2019-06-04 19:33:22 -0400
+Processing by HomeController#team as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rI1Abd4W9P2yx6hZczRRREGJRRJpS9b4rekdenykKNgu5raR4C/NPkw+zrlN+Yvi+ODp+Qepemh7i8IyylUmng==", "team_number"=>"4", "commit"=>"Build Your Team"}
+  Rendering home/team.html.erb within layouts/application
+  Rendered home/team.html.erb within layouts/application (0.8ms)
+  Rendered home/_navbar.html.erb (0.5ms)
+Completed 200 OK in 42ms (Views: 40.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/home/team" for ::1 at 2019-06-04 19:33:26 -0400
+Processing by HomeController#team as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HRbWfMDMpIKJMQcdKF/pvSTfsZfyvpOj5/VKAppb29yffSCA/vWdQXfIYf0WkjMbnbYdfJxcPzMxl5VKLKrVmg==", "team_number"=>"8", "commit"=>"Build Your Team"}
+  Rendering home/team.html.erb within layouts/application
+  Rendered home/team.html.erb within layouts/application (0.8ms)
+  Rendered home/_navbar.html.erb (0.5ms)
+Completed 200 OK in 31ms (Views: 30.3ms | ActiveRecord: 0.0ms)
+
+
