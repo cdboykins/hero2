@@ -1,10 +1,23 @@
 <h1>Team Page</h1>
 <div class="panel panel-default">
   <div class="panel-heading">
-    <h3 class="panel-title"><%= link_to 'Click Here To Generate A New Superhero', root_path %></h3>
+    <h3 class="panel-title gray"><%= link_to 'How Many Team Members Do You Want', root_path %></h3>
   </div>
   <div class="panel-body">
-    <%= @hero_name %>
+    <div class="row">
+    </br>
+        <div class="col-md-4">
+            <%= form_tag home_team_path,:method => "POST" do %>
+             <%= submit_tag 'Build Your Team' %>
+            <% end %>
+        </div>
+         <div class="col-md-4">
+
+        </div>
+         <div class="col-md-4">
+
+        </div>
+    </div>
   </div>
   
 <div class="panel-footer">

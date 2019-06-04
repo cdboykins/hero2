@@ -15,22 +15,26 @@
  *= require_self
  */
 .bigname {
-  color: blue;
+    color: #054ea787;
 }
 
 .lilname {
-  color: green;
+    color: green;
+}
+
+.gray {
+    color: grey
 }
 
 h3 {
-  color: red;
+    color: red;
 }
 
 h5 {
-  color: red;
+    color: #fba2a2;
 }
 
 h4,
 h6 {
-  color: grey;
+    color: #2a2c2c87;
 }
