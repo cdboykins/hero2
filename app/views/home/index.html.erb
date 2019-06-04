@@ -1,14 +1,23 @@
-<h1>Home Page</h1>
+<h1 class="bigname">Super Duper Hero Generator</h1>
 <div class="panel panel-default">
   <div class="panel-heading">
-    <h3 class="panel-title"><%= link_to 'Click Here To Generate A New Superhero', root_path %></h3>
+    <h3 class="panel-title"></h3><%= link_to 'Click Here To Generate A New Superhero', root_path %>
   </div>
   <div class="panel-body">
-    Hero Image </br><%= @hero_image %></br>
-    Super Hero Name </br><%= @hero_name.upcase %></br></br>
-    Super Hero Power</br><%= @hero_power %></br></br>
-    Employed as </br><%= @corp_title.upcase %></br></br> 
-    Employed by  </br> <%= @corp_job.upcase %></br></br> 
+  <div class="row">
+    <div class="col-md-4">
+      <img src="<%= @hero_image %>">
+    </div>
+       <div class="col-md-4">
+          <h3>Super Hero Name</h3><h4><%= @hero_name.upcase %></h4>
+          <h3>Super Hero Power</h3><h4><%= @hero_power %></h4></br></br></br>
+          <h5>Employed as</h5><h6><%= @corp_title.upcase %></h6>
+          <h5>Employed by</h5><h6><%= @corp_job.upcase %></h6>
+       </div>
+        <div class="col-md-4">
+          ....
+        </div>
+        </div>
       </div>
     </div>
   

@@ -14,6 +14,7 @@ before_action :common, :only => [:index, :team]
     @hero_descriptor = Faker::Superhero.descriptor
     @rand_num = rand(1...1000)
 
+  #Randomly picking the avatar  
     @rand_set = rand(1..4)
     if @rand_set == 1
       @set_num = "set4"
@@ -25,7 +26,7 @@ before_action :common, :only => [:index, :team]
       @set_num = "set1"
     end
 
-
+#Randomly picking the background
     @bg_set = rand(1..4)
     if @bg_set == 1
       @bg_num = "bg1"
