@@ -5451,3 +5451,113 @@ Processing by HomeController#team as HTML
 Completed 200 OK in 45ms (Views: 44.4ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for ::1 at 2019-06-05 02:10:18 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.3ms)
+  Rendered home/_navbar.html.erb (282.6ms)
+Completed 500 Internal Server Error in 625ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `home_heroes_path' for #<#<Class:0x00007ff44443f6f8>:0x00007ff44443cef8>
+Did you mean?  home_team_path):
+    18:       <ul class="nav navbar-nav navbar-right">
+    19:         <li><%= link_to 'Home Page', root_path %></li>
+    20:         <li><%= link_to 'Create A Team', home_team_path %></li>
+    21:         <li><%= link_to 'Hero Page', home_heroes_path %></li>
+    22:         <li class="dropdown">
+    23:           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">DROPDOWN <span class="caret"></span></a>
+    24:           <ul class="dropdown-menu">
+  
+app/views/home/_navbar.html.erb:21:in `_app_views_home__navbar_html_erb___2108107778826416850_70343555039620'
+app/views/layouts/application.html.erb:15:in `_app_views_layouts_application_html_erb___842206521329463540_70343547057960'
+Started GET "/" for ::1 at 2019-06-05 02:10:26 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+  Rendered home/_navbar.html.erb (199.8ms)
+Completed 500 Internal Server Error in 230ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `home_heroes_path' for #<#<Class:0x00007ff44443f6f8>:0x00007ff4446d61f0>
+Did you mean?  home_team_path):
+    18:       <ul class="nav navbar-nav navbar-right">
+    19:         <li><%= link_to 'Home Page', root_path %></li>
+    20:         <li><%= link_to 'Create A Team', home_team_path %></li>
+    21:         <li><%= link_to 'Hero Page', home_heroes_path %></li>
+    22:         <li class="dropdown">
+    23:           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">DROPDOWN <span class="caret"></span></a>
+    24:           <ul class="dropdown-menu">
+  
+app/views/home/_navbar.html.erb:21:in `_app_views_home__navbar_html_erb___2108107778826416850_70343489107820'
+app/views/layouts/application.html.erb:15:in `_app_views_layouts_application_html_erb___842206521329463540_70343548449520'
+Started GET "/" for ::1 at 2019-06-05 02:13:01 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+  Rendered home/_navbar.html.erb (194.6ms)
+Completed 500 Internal Server Error in 224ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `home_heroes_path' for #<#<Class:0x00007ff44443f6f8>:0x00007ff444564010>
+Did you mean?  home_team_path):
+    18:       <ul class="nav navbar-nav navbar-right">
+    19:         <li><%= link_to 'Home Page', root_path %></li>
+    20:         <li><%= link_to 'Create A Team', home_team_path %></li>
+    21:       <!--><li><%= link_to 'Hero Page', home_heroes_path %></li>-->
+    22:         <li class="dropdown">
+    23:           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">DROPDOWN <span class="caret"></span></a>
+    24:           <ul class="dropdown-menu">
+  
+app/views/home/_navbar.html.erb:21:in `_app_views_home__navbar_html_erb___2108107778826416850_70343488954780'
+app/views/layouts/application.html.erb:15:in `_app_views_layouts_application_html_erb___842206521329463540_70343547691360'
+Started GET "/" for ::1 at 2019-06-05 02:13:48 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.8ms)
+  Rendered home/_navbar.html.erb (0.5ms)
+Completed 200 OK in 39ms (Views: 37.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/team" for ::1 at 2019-06-05 02:14:00 -0400
+Processing by HomeController#team as HTML
+  Rendering home/team.html.erb within layouts/application
+  Rendered home/_create.html.erb (1.4ms)
+  Rendered home/team.html.erb within layouts/application (3.2ms)
+  Rendered home/_navbar.html.erb (0.5ms)
+Completed 200 OK in 36ms (Views: 34.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/home/team" for ::1 at 2019-06-05 02:14:04 -0400
+Processing by HomeController#team as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"acmz0e7zSw47XenktHNMehBQWrqPH9iCkOZElfkkIxTPAxdiNLJfI1hxC2JAEsHauUsKjYYc/ZUf2ndTEWyvOw==", "team_number"=>"2", "commit"=>"Build Your Team"}
+  Rendering home/team.html.erb within layouts/application
+  Rendered home/_show.html.erb (0.7ms)
+  Rendered home/team.html.erb within layouts/application (1.6ms)
+  Rendered home/_navbar.html.erb (0.5ms)
+Completed 200 OK in 31ms (Views: 29.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/home/team" for ::1 at 2019-06-05 02:15:28 -0400
+Processing by HomeController#team as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"acmz0e7zSw47XenktHNMehBQWrqPH9iCkOZElfkkIxTPAxdiNLJfI1hxC2JAEsHauUsKjYYc/ZUf2ndTEWyvOw==", "team_number"=>"2", "commit"=>"Build Your Team"}
+  Rendering home/team.html.erb within layouts/application
+  Rendered home/_show.html.erb (0.7ms)
+  Rendered home/team.html.erb within layouts/application (1.5ms)
+  Rendered home/_navbar.html.erb (0.4ms)
+Completed 200 OK in 41ms (Views: 40.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/home/team" for ::1 at 2019-06-05 02:16:09 -0400
+Processing by HomeController#team as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"acmz0e7zSw47XenktHNMehBQWrqPH9iCkOZElfkkIxTPAxdiNLJfI1hxC2JAEsHauUsKjYYc/ZUf2ndTEWyvOw==", "team_number"=>"2", "commit"=>"Build Your Team"}
+  Rendering home/team.html.erb within layouts/application
+  Rendered home/_show.html.erb (0.7ms)
+  Rendered home/team.html.erb within layouts/application (1.6ms)
+  Rendered home/_navbar.html.erb (0.5ms)
+Completed 200 OK in 30ms (Views: 29.3ms | ActiveRecord: 0.0ms)
+
+
