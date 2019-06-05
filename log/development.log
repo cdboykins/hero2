@@ -4914,3 +4914,70 @@ Processing by HomeController#team as HTML
 Completed 200 OK in 31ms (Views: 30.3ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/home/team" for ::1 at 2019-06-04 19:44:14 -0400
+Started GET "/home/team" for ::1 at 2019-06-04 19:44:14 -0400
+Started GET "/home/heroes" for ::1 at 2019-06-04 19:44:14 -0400
+Started GET "/" for ::1 at 2019-06-04 19:44:14 -0400
+Processing by HomeController#team as HTML
+Processing by HomeController#index as HTML
+Processing by HomeController#heroes as HTML
+Processing by HomeController#team as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.7ms)
+  Rendering home/team.html.erb within layouts/application
+  Rendered home/team.html.erb within layouts/application (0.9ms)
+  Rendering home/heroes.html.erb within layouts/application
+  Rendering home/team.html.erb within layouts/application
+  Rendered home/team.html.erb within layouts/application (0.3ms)
+  Rendered home/heroes.html.erb within layouts/application (0.5ms)
+  Rendered home/_navbar.html.erb (1.0ms)
+  Rendered home/_navbar.html.erb (0.1ms)
+  Rendered home/_navbar.html.erb (0.4ms)
+Completed 200 OK in 554ms (Views: 547.7ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 758ms (Views: 548.8ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 660ms (Views: 553.9ms | ActiveRecord: 0.0ms)
+
+
+  Rendered home/_navbar.html.erb (0.1ms)
+Completed 200 OK in 575ms (Views: 574.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/home/team" for ::1 at 2019-06-04 19:44:22 -0400
+Processing by HomeController#team as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GLUXb31+fOon6+16PY9eGhy90ApJBmge3fr76La+n0Ka3uGTQ0dFKdkSi5oDQoS8pdR84SfkxI4LmCSgAE+RBA==", "team_number"=>"5", "commit"=>"Build Your Team"}
+  Rendering home/team.html.erb within layouts/application
+  Rendered home/team.html.erb within layouts/application (0.8ms)
+  Rendered home/_navbar.html.erb (0.4ms)
+Completed 200 OK in 29ms (Views: 27.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/home/team" for ::1 at 2019-06-04 19:44:37 -0400
+Processing by HomeController#team as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"EP0pWwlv5LyhlD+OdtF2eTNP29C1xyJm/EC5CPx9Mo2Slt+nN1bdf19tWW5IHKzfiiZ3O9sljvYqImZASow8yw==", "team_number"=>"8", "commit"=>"Build Your Team"}
+  Rendering home/team.html.erb within layouts/application
+  Rendered home/team.html.erb within layouts/application (0.7ms)
+  Rendered home/_navbar.html.erb (0.5ms)
+Completed 200 OK in 24ms (Views: 23.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/home/team" for ::1 at 2019-06-04 19:46:17 -0400
+Processing by HomeController#team as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"TGp06REjvkD/jXzk8w6Q6VTTd2ApPmFzQyTj19fmqLvOAYIVLxqHgwF0GgTNw0pP7brbi0fczeOVRjyfYRem/Q==", "team_number"=>"2", "commit"=>"Build Your Team"}
+  Rendering home/team.html.erb within layouts/application
+  Rendered home/team.html.erb within layouts/application (0.8ms)
+  Rendered home/_navbar.html.erb (0.5ms)
+Completed 200 OK in 31ms (Views: 29.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/team" for ::1 at 2019-06-04 19:46:19 -0400
+Processing by HomeController#team as HTML
+  Rendering home/team.html.erb within layouts/application
+  Rendered home/team.html.erb within layouts/application (0.9ms)
+  Rendered home/_navbar.html.erb (0.5ms)
+Completed 200 OK in 31ms (Views: 30.4ms | ActiveRecord: 0.0ms)
+
+
