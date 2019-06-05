@@ -1,14 +1,57 @@
+
+<% @team_number.times do %>
+
+
+
 <div class="row">
     <div class="col-md-4">
-      <img src="<%= @hero_image %>">
+<%
+ @rand_num = rand(1...1000)
+
+  #Randomly picking the avatar  
+    @rand_set = rand(1..4)
+    if @rand_set == 1
+      @set_num = "set4"
+    elsif @rand_set == 2
+      @set_num = "set3"
+    elsif @set_num == 3
+      @set_num = "set2"
+    else
+      @set_num = "set1"
+    end
+
+#Randomly picking the background
+    @bg_set = rand(1..4)
+    if @bg_set == 1
+      @bg_num = "bg1"
+    elsif @bg_set == 2
+      @bg_num = "bg2"
+    elsif @bg_num == 3
+      @bg_num = "bg3"
+    else
+      @bg_num = "bg4"
+    end
+
+    @hero_image = Faker::Avatar.image(@rand_num, "300x300", "png", @set_num, @bg_num)
+  
+
+
+%>
+      <img src="<%= @hero_image %>"> 
     </div>
        <div class="col-md-4">
-          <h3>Super Hero Name</h3><h4><%= @hero_name.upcase %></h4>
-          <h3>Super Hero Power</h3><h4><%= @hero_power %></h4></br></br></br>
-          <h5>Employed as</h5><h6><%= @corp_title.upcase %></h6>
-          <h5>Employed by</h5><h6><%= @corp_job.upcase %></h6>
+          <h3>Super Hero Name</h3><h4><%= Faker::Superhero.name %></h4>
+          <h3>Super Hero Power</h3><h4><%= Faker::Superhero.power %></h4></br></br></br>
+          <h5>Employed as</h5><h6><%= Faker::Job.title %></h6>
+          <h5>Employed by</h5><h6><%= Faker::Company.bs %></h6>
        </div>
         <div class="col-md-4">
           ....
         </div>
-        </div>
+            <div class = 'row'>
+                <div class="col-md-12">
+                <hr>
+                </div>
+            </div>
+    </div>
+   <% end %> 
